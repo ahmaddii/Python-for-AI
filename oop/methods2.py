@@ -13,7 +13,7 @@ class DataValidater:
             
             def validate_age(self,age):
                     
-                    if age < 0 and age > 150:
+                    if age < 0 or age > 150:
                             self.errors.append(f"Inavlid age : {age}")
                             return False
                     return True
@@ -26,7 +26,7 @@ class DataValidater:
 
 validater1 = DataValidater()
 
-#svalidater1.validate_email(email="malik")
+validater1.validate_email(email="malik")
 validater1.validate_age(age=300)
 
 print(validater1.get_errors())
