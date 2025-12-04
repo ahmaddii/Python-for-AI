@@ -29,6 +29,13 @@ validater1 = DataValidater()
 validater1.validate_email(email="malik")
 validater1.validate_age(age=300)
 
+
+validaeter2 = DataValidater()
+validaeter2.validate_email(email="malik@gmail.com")
+validaeter2.validate_age(age=18)
+
 print(validater1.get_errors())
 
 print(validater1.get_errors())
+
+print(validaeter2.get_errors())
