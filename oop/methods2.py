@@ -32,7 +32,7 @@ validater1.validate_age(age=300)
 
 validaeter2 = DataValidater()
 validaeter2.validate_email(email="malik@gmail.com")
-validaeter2.validate_age(age=18)
+validaeter2.validate_age(age=35)
 
 print(validater1.get_errors())
 
