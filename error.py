@@ -9,7 +9,7 @@
 
 try:
             age = int(input("Enter your age"))
-            print(f"After 10 Years Your age is {age + 40}")
+            print(f"After 10 Years Your age is {age + 80}")
 
 except ValueError:
         print("Enter valid value for age")
