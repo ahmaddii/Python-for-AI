@@ -1,0 +1,18 @@
+[
+    {
+        "name": "ahmad",
+        "email": "malik@gmail.com",
+        "skills": [
+            "automation",
+            "flutter",
+            "python"
+        ]
+    },
+    {
+        "name": "ali",
+        "email": "ali@gmail.comn",
+        "skills": [
+            "javascript,react"
+        ]
+    }
+]
