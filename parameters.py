@@ -13,7 +13,7 @@ def calculate_Total(price,taxRate,discount):
         print(f"Total Bill is : {final_price} tax is {tax} and discount is {discount}")
 
 
-calculate_Total(1200,12,100)
+calculate_Total(1200,30,100)
 
 # default values to paranetrs
 
